@@ -1,7 +1,13 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Task } from './task.model'; // Assuming you have a Task model defined in task.model.ts
 
-
+// interface Task {
+//   id: string;
+//   userId: string;
+//   title: string;
+//   summary: string;
+//   date: string;
+// }
 @Component({
   selector: 'app-task',
   standalone: true,
